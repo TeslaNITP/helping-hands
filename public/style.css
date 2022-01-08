@@ -50,7 +50,6 @@ a {
 p {
   font-size: 1.6rem;
 }
-
 .container {
   width: 100%;
   max-width: 122.5rem;
@@ -183,7 +182,7 @@ header {
   width: 100%;
   height: 50vh;
   background: url("img/header.png") center no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -380,7 +379,7 @@ header {
   padding: 20px;
   background-color: #360752;
   color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-bottom: 20px;
 }
 .timeline ul li:last-child {
@@ -1540,6 +1539,31 @@ footer {
   font-size: 2rem;
   padding: 3rem 0 2rem 0;
   animation: up 15s infinite;
+}
+.timeline {
+  width: 92%;
+  height: auto;
+  max-width: 800px;
+  margin: 5% auto;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 20px !important;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline ul li {
+  padding: 10px;
+  background-color: #360752;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 }
 
