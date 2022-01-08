@@ -98,8 +98,8 @@ app.get("/prolog", (req, res) => {
   res.render("materials/prolog");
 });
 
-app.get("/python", (req, res) => {
-  res.render("materials/python");
+app.get("/maths", (req, res) => {
+  res.render("materials/maths");
 });
 
 app.get("/react", (req, res) => {
@@ -130,6 +130,6 @@ app.get("/webaccessibility", (req, res) => {
   res.render("materials/webaccessibility");
 });
 
-app.listen(3000, function () {
-  console.log("running at port 3000");
+app.listen(5050, function () {
+  console.log("server running at port 5050");
 });
