@@ -1,13 +1,12 @@
 {
-  "name": "basil",
+  "name": "helping-hands",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app which lists all the notes and resources for NIT Patna freshers.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon run"
+    "start": "nodemon app.js"
   },
-  "author": "Aniket",
+  "author": "Sudhanshu Ranjan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

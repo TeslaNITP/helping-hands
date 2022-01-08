@@ -1108,8 +1108,7 @@ header {
   padding-top: 4%;
 }
 
-#topic-wrapper {
-}
+
 
 /*#bg-sky{
   background-repeat: no-repeat;
@@ -1141,6 +1140,7 @@ header {
   height: 100%;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   padding-top: 60px;
   transition: 0.2s;
@@ -1149,6 +1149,7 @@ header {
 
 .overlay:hover {
   background-color: rgba(0, 0, 0, 0);
+  -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
 }
 .overlay:hover .name {
