@@ -82,6 +82,6 @@ app.get("/electronicsworkshop", (req, res) => {
   res.render("materials/electronicsworkshop");
 });
 
-app.listen(5050, function () {
-  console.log("server running at port 5050");
+app.listen(3000, function () {
+  console.log("server running at port 3000");
 });
