@@ -1512,6 +1512,37 @@ footer {
   }
 }
 
+@media screen and (max-width:600px) {
+   h1{
+    font-size: 3rem !important;
+    margin-left : 1rem;
+    margin-right: 1rem;
+  }
+
+  .back-to-top {
+  width: 7rem;
+  height: 7rem;
+  background-color: #2a00e3;
+  position: fixed;
+  top: -3rem;
+  right: -4rem !important;
+  top: 80%; /* for browsers that do not support calc() */
+  top: calc(95% - 7rem);
+  transform: translateX(-90%);
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
+}
+
+.back-to-top i {
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+  padding: 3rem 0 2rem 0;
+  animation: up 15s infinite;
+}
+}
+
 /*Animations*/
 @keyframes fadeUp {
   0% {
