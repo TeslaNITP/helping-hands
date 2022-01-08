@@ -1,3 +1,5 @@
+const PORT = process.env.PORT || 5050
+
 const express = require("express");
 const bodyParser = require("body-parser");
 
@@ -82,6 +84,4 @@ app.get("/electronicsworkshop", (req, res) => {
   res.render("materials/electronicsworkshop");
 });
 
-app.listen(3000, function () {
-  console.log("server running at port 3000");
-});
+app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
