@@ -1637,7 +1637,7 @@ footer {
 }
 
 .contributer-profile{
-  background-color: #29004d;
+  background-color: #410179;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -1665,7 +1665,7 @@ footer {
   background-image: url(img/sudhanshu.jpg);
 }
 .priyu{
-  background-image: url(img/priyanshu.jpg);
+  background-image: url(img/priyu.jpg);
 }
 .contributers-flex{
   display: flex;
@@ -1695,8 +1695,11 @@ footer {
 .limnks{
   margin-top: 1rem;
 }
+.hide-on-small{
+  display: none;
+}
 .contributer-profile{
-  background-color: #29004d;
+  background-color: #410179;
    display: flex;
    flex-direction: column;
    align-items: center;
