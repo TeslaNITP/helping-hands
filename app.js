@@ -79,8 +79,8 @@ app.get("/maths", (req, res) => {
   res.render("materials/maths");
 });
 
-app.get("/pyq", (req, res) => {
-  res.render("materials/pyq");
+app.get("/phl", (req, res) => {
+  res.render("materials/phl");
 });
 
 
